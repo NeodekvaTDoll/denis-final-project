@@ -89,6 +89,10 @@ p {
     flex-wrap: wrap;
     padding-top: 102px;
 }
+.dog1 {
+    max-width: 594px;
+    width: 100%;
+}
 .main-div2 {
     display: flex;
     justify-content: space-between;
