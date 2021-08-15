@@ -6,6 +6,9 @@
     justify-content: space-between;
     padding-top: 52px;
 }
+.header-logo {
+    padding-top: 40px;
+}
 .header-ul {
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +16,7 @@
     color: #707070;
     font-size: 20px;
     font-weight: 200;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 li {
     margin-right: 40px;
@@ -82,4 +85,33 @@ p {
 }
 .right-block {
     padding-top: 102px;
+}
+.main-div2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.left-block1 {
+    max-width: 450px;
+}
+h2 {
+    font-size: 48px;
+    color: #FF6752;
+    padding-bottom: 40px;
+}
+.input {
+    width: 293px;
+    height: 80px;
+    font-size: 24px;
+    
+}
+.input-image {
+    margin-top: 30px;
+    height: 74px;
+    width: 74px;
+    vertical-align: middle;
+}
+.right-block1 {
+    
 }
