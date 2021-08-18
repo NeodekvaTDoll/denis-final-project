@@ -111,12 +111,29 @@ h2 {
     color: #FF6752;
     padding-bottom: 40px;
 }
-.input {
-    border: 1px solid lightslategray;
-    height: 80px;
-    font-size: 24px;
+/* .input {
+    
+    
     background: url(../images/button.svg) no-repeat right;
-    padding-left:20px; 
+    border: 1px solid lightslategray;
+    padding-left:20px;
+    border-radius: 50px;
+} */
+input[type=text]{
+    background: url(../images/button.svg) no-repeat right;
+     border-radius: 50px;
+     border: 1px solid #2d9fd9;
+     color: #a0d18c;
+     width: 293px;
+     height: 80px;
+     padding-left: 15px;
+     font-size: 24px;
+    }
+    
+input[type=text]:focus {
+     outline: none;
+     /* border: 1px solid #a0d18c;
+     color: #2d9fd9; */
 }
 .input-image {
     margin-top: 30px;
@@ -168,3 +185,89 @@ h2 {
     transform: translateX(-400px);
     transform: translateY(-870px);
 }
+.div-comments {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 100px;
+    max-width: 706px;
+    padding-top: 356.5px;
+}
+.span {
+    display: inline-block;
+    text-indent: 30px;
+}
+.comments {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1460px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.left-comment {
+    background-color: #FD6845;
+    max-width: 700px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px #FAAD9B;
+}
+.right-comment {
+    background-color: #4487FF;
+    max-width: 700px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+}
+h3 {
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.denis {
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+.comment-text {
+    display: flex;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+    
+}
+.text {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+.devider {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-top: 290px;
+}
+.work-right {
+
+}
+.work-left {
+    display: flex;
+    max-width: 517px;
+    height: 345px;
+    width: 100%;
+}
+.p-text {
+    max-width: 450px;
+    width: 100%;
+}
+
+
+
