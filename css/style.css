@@ -104,6 +104,8 @@ p {
     padding-top: 290px;
 }
 .left-block1 {
+    display: flex;
+    flex-direction: column;
     max-width: 450px;
     width: 100%;
 }
@@ -112,14 +114,6 @@ h2 {
     color: #FF6752;
     padding-bottom: 40px;
 }
-/* .input {
-    
-    
-    background: url(../images/button.svg) no-repeat right;
-    border: 1px solid lightslategray;
-    padding-left:20px;
-    border-radius: 50px;
-} */
 input[type=text]{
     background: url(../images/button.svg) no-repeat right;
      border-radius: 50px;
@@ -133,8 +127,6 @@ input[type=text]{
     
 input[type=text]:focus {
      outline: none;
-     /* border: 1px solid #a0d18c;
-     color: #2d9fd9; */
 }
 .input-image {
     margin-top: 30px;
@@ -252,14 +244,19 @@ h3 {
 .devider {
     display: flex;
     justify-content: space-between;
-    max-width: 1330px;
+    max-width: 1450px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 290px;
 }
 .work-right {
-    max-width: 517px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
     width: 100%;
     height: 375px;
+    margin: 0 auto;
+    padding-left: 165px;
 
 }
 .work-left {
@@ -282,7 +279,6 @@ h3 {
     max-width: 249px;
     height: 249px;
     border: 1px solid lightgrey;
-    margin: 0 auto;
     border-radius: 20px;
     box-shadow: 3px 3px lightgrey;
     background-color: #fff;
@@ -298,20 +294,16 @@ h3 {
     max-width: 249px;
     height: 249px;
     border: 1px solid lightgrey;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     border-radius: 20px;
     box-shadow: 3px 3px lightgrey;
     background-color: #fff;
-    /* margin-left: 414px;     */
-    display: inline-block;
-    position: absolute;
-    transform: translateX(500.5px);
-    transform: translateY(600.99px);
+    margin-left: 400px;
 
 }
 .line {
     background-image: url(../images/line.svg);
-    max-width: 414px;
+    max-width: 530px;
     width: 100%;
     height: 590.18px;
     position: absolute;
@@ -320,8 +312,21 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     z-index: -2;
-    transform: translateX(402.5px);
-    transform: translateY(600.99px);
+    padding-left: 200px;
+    transform: translateY(70.99px);
+}
+.sun {
+    background-image: url(../images/sun.svg);
+    max-width: 1343px;
+    width: 100%;
+    height: 1345px;
+    position: absolute;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -2;
+    transform: translateX(1000px);
 }
 
 
