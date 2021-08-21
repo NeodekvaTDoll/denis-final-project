@@ -100,6 +100,7 @@ p {
     display: flex;
     justify-content: space-between;
     max-width: 1330px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 290px;
 }
@@ -232,6 +233,7 @@ h3 {
     display: flex;
     margin: 0 auto;
     max-width: 550px;
+    width: 100%;
     text-align: center;
     
 }
@@ -240,9 +242,6 @@ h3 {
     line-height: 35px;
     text-align: center;
     color: #fff;
-}
-.work {
-    position: relative;
 }
 .devider {
     display: flex;
@@ -260,6 +259,7 @@ h3 {
     height: 375px;
     margin: 0 auto;
     padding-left: 165px;
+    position: relative;
 
 }
 .work-left {
@@ -278,8 +278,8 @@ h3 {
     flex-direction: column;
 	align-items: center;
 	text-align: center;
-    width: 100%;
     max-width: 249px;
+    width: 100%;
     height: 249px;
     border: 1px solid lightgrey;
     border-radius: 20px;
@@ -292,9 +292,9 @@ h3 {
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
-    width: 100%;
+    text-align: center;
     max-width: 249px;
+    width: 100%;
     height: 249px;
     border: 1px solid lightgrey;
     margin: 0 auto;
@@ -318,20 +318,22 @@ h3 {
     padding-left: 200px;
     transform: translateY(70.99px);
 }
-
-.sun {
+.work {
+    position: relative;
+}
+/* .sun {
     background-image: url(../images/sun.svg);
-    max-width: 1343px;
+    max-width: 2000px;
     width: 100%;
-    height: 1345px;
+    height: 2000px;
     position: absolute;
     background-attachment: scroll;
     background-origin: content-box;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 1050px;
-    z-index: -2;
-    transform: translateY(1000px);
-}
+    z-index: -5;
+    transform: translate(100px,-950px);
+} */
 
 
