@@ -437,7 +437,6 @@ h3 {
     font-weight: 700;
 }
 .footer {
-
     max-width: 3121px;
     width: 100%;
     height: 500px;
@@ -446,21 +445,23 @@ h3 {
     background: rgb(255,122,82);
     background: linear-gradient(0deg, rgba(255,122,82,0.9897001036742822) 11%, rgba(255,103,82,1) 100%);
     margin: 0 auto;
-    margin-top: 500px;
 }
 .footer-back {
     display: flex;
     justify-content: space-between;
     max-width: 1640px;
     width: 100%;
+    margin: 0 auto;
+    margin-top: 400px;
 }
 .foot-block {
     display: flex;
     flex-direction: column;
-    max-width: 220px;
+    max-width: 300px;
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .input-mail[type=text] {
     background: url(../images/button.svg) no-repeat right;
@@ -473,7 +474,20 @@ h3 {
     padding-left: 15px;
     font-size: 24px; 
 }
-/* .soc-media {
-    padding-top: 50px;
-    display: inline-block;
-} */
+.foot-h3 {
+    color: #FFE530;
+    font-size: 24px;
+    font-weight: 700;
+}
+.foot-text {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.soc-medias {
+    display: flex;
+    max-width: 240px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
