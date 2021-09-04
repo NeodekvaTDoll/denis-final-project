@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto:wght@100;300&display=swap');
 .navigation {
     max-width: 1640px;
     width: 100%;
@@ -79,14 +81,6 @@ li {
 .button2 {
     font-size: 20px;
 }
-h1 {
-    font-size: 78px;
-    padding-bottom: 35px;
-}
-p {
-    font-size: 24px;
-    padding-bottom: 40px;
-}
 .right-block {
     display: flex;
     flex-wrap: wrap;
@@ -110,11 +104,7 @@ p {
     max-width: 450px;
     width: 100%;
 }
-h2 {
-    font-size: 48px;
-    color: #FF6752;
-    padding-bottom: 40px;
-}
+
 input[type=text]{
     background: url(../images/button.svg) no-repeat right;
      border-radius: 50px;
@@ -164,6 +154,8 @@ input[type=text]:focus {
     padding-top: 40px;
     font-size: 24px;
     color: #707070;
+    font-family:"Comfortaa";
+    font-weight: 300;
 }
 .image2 {
     background-image: url(../images/background2.svg);
@@ -183,7 +175,8 @@ input[type=text]:focus {
     display: flex;
     margin: 0 auto;
     padding-left: 100px;
-    max-width: 706px;
+    max-width: 900px;
+    width: 100%;
     padding-top: 356.5px;
 }
 .span {
@@ -222,12 +215,6 @@ input[type=text]:focus {
     width: 100%;
     text-align: center;
     border-radius: 30px;
-}
-h3 {
-    font-size: 28px;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    color: #fff;
 }
 .denis {
     padding-top: 40px;
@@ -337,10 +324,6 @@ h3 {
     width: 100%;
     height: 1000px;
     position: absolute;
-    /* background-attachment: scroll;
-    background-origin: content-box;
-    background-size: cover;
-    background-repeat: no-repeat; */
     z-index: -5;
     transform: translate(800px,150px);
 }
@@ -379,12 +362,16 @@ h3 {
     padding-top: 34px;
 }
 .p-text1 {
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 35px;
+    
 }
 .h2-text {
     font-size: 48px;
     color: #FFE530;
     font-weight: 900;
+    font-family:"Comfortaa";
+    font-weight: 700;
 }
 .sunny {
     background-image: url(../images/sunny.svg);
@@ -434,7 +421,6 @@ h3 {
 .p-text3 {
     color: #FE6845;
     font-size: 30px;
-    font-weight: 700;
 }
 .footer {
     max-width: 3121px;
@@ -469,19 +455,21 @@ h3 {
     border-radius: 50px;
     border: 1px solid #2d9fd9;
     color: #a0d18c;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 100px;
-    padding-left: 15px;
-    font-size: 24px; 
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 300;
 }
 .foot-h3 {
     color: #FFE530;
     font-size: 24px;
-    font-weight: 700;
 }
 .foot-text {
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 .soc-medias {
@@ -490,4 +478,37 @@ h3 {
     width: 100%;
     justify-content: space-between;
     padding-top: 20px;
+}
+h1 {
+    font-size: 65px;
+    padding-bottom: 35px;
+    font-family:"Comfortaa";
+    font-weight: 700;
+}
+p {
+    font-size: 22px;
+    padding-bottom: 40px;
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 30px;
+}
+a {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+h3 {
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-family:"Comfortaa";
+    font-weight: 700;
+}
+h2 {
+    font-size: 48px;
+    color: #FF6752;
+    padding-bottom: 40px;
+    font-family:"Comfortaa";
+    font-weight: 700;
+    line-height: 60px;
 }
