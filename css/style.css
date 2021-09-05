@@ -17,6 +17,7 @@
     font-size: 20px;
     font-weight: 200;
     padding-top: 60px;
+
 }
 li {
     margin-right: 40px;
@@ -24,6 +25,9 @@ li {
 .a-text {
     color: #fff;
     font-size: 24px;
+}
+.a-text:hover {
+    font-size: 28px;
 }
 .search {
     width: 34px;
@@ -79,6 +83,10 @@ li {
     font-family: "Roboto";
     font-weight: 300;
 }
+.button:hover {
+    background-color: #3F38F4;
+    transition: transform 1s ease;
+}
 .button2 {
     font-size: 18px;
     font-family: "Roboto";
@@ -112,7 +120,7 @@ input[type=text]{
     background: url(../images/button.svg) no-repeat right;
      border-radius: 50px;
      border: 1px solid #2d9fd9;
-     color: #a0d18c;
+     background-color: #fff;
      width: 293px;
      height: 80px;
      padding-left: 15px;
@@ -195,7 +203,7 @@ input[type=text]:focus {
     padding-top: 90px;
 }
 .left-comment {
-    background-color: #FD6845;
+
     background: rgb(255,122,82);
     background: linear-gradient(0deg, rgba(255,122,82,0.9897001036742822) 11%, rgba(255,103,82,1) 100%);
     max-width: 700px;
@@ -205,10 +213,9 @@ input[type=text]:focus {
     width: 100%;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 10px 10px #FAAD9B;
+    box-shadow: 10px 10px 10px #FAAD9B;
 }
 .right-comment {
-    background-color: #4487FF;
     background: rgb(52,71,208);
     background: linear-gradient(0deg, rgba(52,71,208,1) 11%, rgba(68,135,255,1) 100%);
     max-width: 700px;
@@ -218,6 +225,7 @@ input[type=text]:focus {
     width: 100%;
     text-align: center;
     border-radius: 30px;
+    box-shadow: 10px 10px 10px #70A1FA;
 }
 .denis {
     padding-top: 40px;
@@ -238,11 +246,12 @@ input[type=text]:focus {
     color: #fff;
 }
 .work {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* position: relative; */
     margin: 0 auto;
-    height: 800px;
+    /* height: 800px; */
+    /* margin-bottom: 500px; */
     /* max-width: 1450px;
     width: 100%; */
 }
@@ -254,13 +263,13 @@ input[type=text]:focus {
     height: 800px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 290px;
+    margin-top: 290px;
     /* position: relative; */
     
 }
 .work-right {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -271,8 +280,8 @@ input[type=text]:focus {
     /* position: relative; */
     /* padding-left: 161px; */
     background: linear-gradient(0deg, rgba(255,226,21,0.8468429608171394) 11%, rgba(255,229,48,1) 100%);
-    border-radius: 51% 49% 48% 52% / 49% 46% 54% 52% 
-    
+    border-radius: 51% 49% 48% 52% / 49% 46% 54% 52% ;
+    /* margin-bottom: 300px; */
 
 }
 .work-left {
@@ -348,7 +357,7 @@ input[type=text]:focus {
     transform: translateY(70.99px);
 }
 
-.sun {
+/* .sun {
     background-image: url(../images/sun.svg);
     max-width: 1000px;
     width: 100%;
@@ -356,7 +365,7 @@ input[type=text]:focus {
     position: absolute;
     z-index: -5;
     transform: translate(800px,150px);
-}
+} */
 .doggy-section {
     /* margin-top: 100px; */
 }
@@ -374,6 +383,7 @@ input[type=text]:focus {
     justify-content: space-between;
     padding: 40px;
     color: #fff;
+    /* position: relative; */
 }
 .block-text {
     max-width: 910px;
@@ -469,7 +479,7 @@ input[type=text]:focus {
     max-width: 1640px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 400px;
+    margin-top: 300px;
 }
 .foot-block {
     display: flex;
