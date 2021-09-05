@@ -245,25 +245,15 @@ input[type=text]:focus {
     text-align: center;
     color: #fff;
 }
-.work {
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* position: relative; */
-    margin: 0 auto;
-    /* height: 800px; */
-    /* margin-bottom: 500px; */
-    /* max-width: 1450px;
-    width: 100%; */
-}
 .devider {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1450px;
-    height: 800px;
     width: 100%;
     margin: 0 auto;
     margin-top: 290px;
+    margin-bottom: 100px;
     /* position: relative; */
     
 }
@@ -372,10 +362,11 @@ input[type=text]:focus {
 
 .background3 {
     display: flex;
-    background-color: #4487FF;
+    flex-wrap: wrap;
     background: linear-gradient(0deg, rgba(52,71,208,1) 11%, rgba(68,135,255,1) 100%);
     max-width: 1364px;
-    height: 462px;
+    width: 100%;
+    /* height: 462px; */
     margin: 0 auto;
     /* margin-top: 300px; */
     border-radius: 30px;
@@ -425,7 +416,7 @@ input[type=text]:focus {
     background-repeat: no-repeat;
     background-position: center;
     z-index: -2;
-    transform: translate(-120px,-250px);
+    transform: translate(-520px,-270px);
 }
 .dog2 {
     max-width: 334px;
@@ -441,6 +432,7 @@ input[type=text]:focus {
 .logo-block {
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     max-width: 1364px;
     width: 100%;
     justify-content: space-between;
@@ -464,10 +456,8 @@ input[type=text]:focus {
     font-size: 30px;
 }
 .footer {
-    max-width: 3121px;
+    max-width: 1920px;
     width: 100%;
-    height: 500px;
-    background-color: #ff6752;
     border-radius: 50% 50% 24% 0% / 20% 20% 0% 55% ;
     background: rgb(255,122,82);
     background: linear-gradient(0deg, rgba(255,122,82,0.9897001036742822) 11%, rgba(255,103,82,1) 100%);
@@ -479,7 +469,7 @@ input[type=text]:focus {
     max-width: 1640px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 .foot-block {
     display: flex;
@@ -509,6 +499,11 @@ input[type=text]:focus {
     font-size: 24px;
 }
 .foot-text {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.foot-text5 {
     color: #fff;
     font-size: 20px;
     padding-bottom: 20px;
@@ -552,4 +547,7 @@ h2 {
     font-family:"Comfortaa";
     font-weight: 700;
     line-height: 60px;
+}
+.foot-text::before {
+    content: "🐕 ";
 }
