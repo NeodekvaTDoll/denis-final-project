@@ -242,8 +242,9 @@ input[type=text]:focus {
     flex-wrap: wrap;
     position: relative;
     margin: 0 auto;
-    max-width: 1450px;
-    width: 100%;
+    height: 800px;
+    /* max-width: 1450px;
+    width: 100%; */
 }
 .devider {
     display: flex;
@@ -254,17 +255,24 @@ input[type=text]:focus {
     width: 100%;
     margin: 0 auto;
     padding-top: 290px;
+    /* position: relative; */
+    
 }
 .work-right {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
     width: 100%;
-    height: 375px;
+    height: 500px;
     margin: 0 auto;
     /* position: relative; */
-    padding-left: 161px;
+    /* padding-left: 161px; */
+    background: linear-gradient(0deg, rgba(255,226,21,0.8468429608171394) 11%, rgba(255,229,48,1) 100%);
+    border-radius: 51% 49% 48% 52% / 49% 46% 54% 52% 
+    
 
 }
 .work-left {
@@ -349,18 +357,19 @@ input[type=text]:focus {
     z-index: -5;
     transform: translate(800px,150px);
 }
-
+.doggy-section {
+    /* margin-top: 100px; */
+}
 
 .background3 {
+    display: flex;
     background-color: #4487FF;
-    background: rgb(52,71,208);
     background: linear-gradient(0deg, rgba(52,71,208,1) 11%, rgba(68,135,255,1) 100%);
     max-width: 1364px;
     height: 462px;
     margin: 0 auto;
-    margin-top: 300px;
+    /* margin-top: 300px; */
     border-radius: 30px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
@@ -406,7 +415,7 @@ input[type=text]:focus {
     background-repeat: no-repeat;
     background-position: center;
     z-index: -2;
-    transform: translate(-200px,-250px);
+    transform: translate(-120px,-250px);
 }
 .dog2 {
     max-width: 334px;
