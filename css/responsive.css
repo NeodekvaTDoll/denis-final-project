@@ -138,12 +138,27 @@
         font-size: 18px;
     }
 }
-@media (max-width:730px) {
+@media (max-width:772px) {
     h1 {
         font-size: 48px;
     }
     .left-block{
         padding-top: 60px;
+    }
+    .icon1 {
+        max-width: 100px;
+    }
+    /* .smile-dog {
+        max-width: 80%;
+    }
+    .block-text {
+        max-width: 80%;
+    } */
+    .p-text1{
+        display: none;
+    }
+    .dogy-text {
+        font-size: 16px;
     }
 }
 

@@ -415,6 +415,10 @@ input[type=text]:focus {
     max-width: 334px;
     width: 100%;
 }
+.smile-dog {
+    max-width: 334px;
+    width: 100%;
+}
 .logoes {
     display: flex;
     max-width: 1364px;
