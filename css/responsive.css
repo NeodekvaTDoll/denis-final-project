@@ -67,6 +67,13 @@
     .logo-block {
         width: 90%;
     }
+    .comments {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-comment {
+        margin-bottom: 40px;
+    }
 
 }
 @media (max-width: 972px) {
@@ -82,6 +89,9 @@
     }
 }
 @media (max-width:945px) {
+    .devider {
+        margin-top: 100px;
+    }
     .h2-text {
         font-size: 38px;
         padding-bottom: 20px;
@@ -148,17 +158,95 @@
     .icon1 {
         max-width: 100px;
     }
-    /* .smile-dog {
-        max-width: 80%;
+    .h2-text {
+        font-size: 22px;
     }
-    .block-text {
-        max-width: 80%;
-    } */
-    .p-text1{
-        display: none;
+    .p-text1 {
+        font-size: 18px;
     }
+    h2 {
+        line-height: normal;
+    }
+
     .dogy-text {
         font-size: 16px;
+    }
+    .pet-owners {
+        padding-left: 1px;
+    }
+}
+@media (max-width:650px) {
+    .work-left {
+        /* position: static; */
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-block2 {
+        position: static;
+    }
+    .line {
+        display: none;
+    }
+    .span {
+        display: block;
+        text-indent: 0px;
+    }
+    .pet-owners {
+        padding-left: 1px;
+        max-width: 350px;
+    }
+    span {
+        display: none;
+    }
+    .p-text {
+        max-width: 250px;
+    }
+}
+@media (max-width:618px) {
+    .div-block {
+        margin-bottom: 20px;
+    }
+    .commentaries {
+        margin-top: 300px;
+    }
+}
+@media (max-width: 568px) {
+    .p-main {
+        display: none;
+    }
+    .logo-block {
+        max-width: 250px;
+    }
+    .icon1 {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 450px) {
+    .input {
+        width: 100px;
+    }
+    .input-mail[type=text] {
+        display: none;
+    }
+    .foot-text5 {
+        display: none;
+    }
+    .foot-h3 {
+        display: none;
+    }
+    .soc-medias {
+        padding-top: 1px;
+    }
+    .foot-text2 {
+        display: none;
+    }
+    .foot-block {
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    .footer-back {
+        flex-direction: column;
     }
 }
 
