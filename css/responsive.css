@@ -34,6 +34,7 @@
         flex-wrap: nowrap;
     }
 }
+
 @media (max-width: 1106px) {
     .main-div2 {
         display: flex;
@@ -48,6 +49,7 @@
         margin-bottom: 60px;
     }
 }
+
 @media (max-width: 1106px) {
     .left-block {
         padding-top: 152px;
@@ -76,8 +78,9 @@
     }
 
 }
+
 @media (max-width: 972px) {
-    .main-div{
+    .main-div   {
         display: flex;
         justify-content: space-between;
     }
@@ -88,6 +91,7 @@
         width: 50%;
     }
 }
+
 @media (max-width:945px) {
     .devider {
         margin-top: 100px;
@@ -101,6 +105,7 @@
     }
 
 }
+
 @media (max-width:835px) {
     .buttons {
         align-items: flex-start;
@@ -158,6 +163,7 @@
         font-size: 16px;
     }
 }
+
 @media (max-width:772px) {
     h1 {
         font-size: 48px;
@@ -194,6 +200,7 @@
         font-size: 20px;
     }
 }
+
 @media (max-width:650px) {
     .work-left {
         /* position: static; */
@@ -253,6 +260,7 @@
     
     
 }
+
 @media (max-width:618px) {
     .div-block {
         margin-bottom: 20px;
@@ -264,7 +272,9 @@
         padding-left: 1px;
         max-width: 450px;
         padding-top: 10px;
+    }
 }
+
 @media (max-width: 568px) {
     .p-main {
         display: none;
@@ -277,11 +287,15 @@
     }
     .div-comments {
         padding-top: 1.5px
+    }
 }
+
 @media (max-width: 520px) {
     .pet-owners {
         padding-top: 120px;
+    }
 }
+
 @media (max-width: 450px) {
     .input {
         width: 100px;
@@ -315,5 +329,3 @@
         font-size: 16px;
     }
 }
-
-
