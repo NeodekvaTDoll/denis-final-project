@@ -116,9 +116,15 @@
     }
     input[type=text] {
         font-size: 18px;
+        background-size: 52px;
+        max-width: 210px;
+        height: 60px;
     }
     .input-mail[type=text] {
         font-size: 18px;
+        background-size: 52px;
+        max-width: 210px;
+        height: 60px;
     }
     .p-text1 {
         padding-bottom: 20px;
@@ -147,6 +153,10 @@
     .foot-text {
         font-size: 18px;
     }
+    .button-join {
+        height: 55px;
+        font-size: 16px;
+    }
 }
 @media (max-width:772px) {
     h1 {
@@ -174,6 +184,15 @@
     .pet-owners {
         padding-left: 1px;
     }
+    .p-text {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .div-text {
+        font-size: 20px;
+    }
 }
 @media (max-width:650px) {
     .work-left {
@@ -194,7 +213,8 @@
     }
     .pet-owners {
         padding-left: 1px;
-        max-width: 350px;
+        max-width: 450px;
+        padding-top: 320px;
     }
     span {
         display: none;
@@ -202,6 +222,36 @@
     .p-text {
         max-width: 250px;
     }
+    h2 {
+        font-size: 26px;
+    }
+    .p-text3 {
+        font-size: 26px;
+    }
+    .div-block {
+        max-width: 200px;
+        height: 200px;
+    }
+    .div-block1 {
+        max-width: 200px;
+        height: 200px;
+    }
+    .div-block2 {
+        max-width: 200px;
+        height: 200px;
+    }
+    .div-block3 {
+        max-width: 200px;
+        height: 200px;
+    }
+    .work-left {
+        height: 700px;
+    }
+    .div-comments {
+        padding-top: 1.5px;
+    }
+    
+    
 }
 @media (max-width:618px) {
     .div-block {
@@ -210,6 +260,10 @@
     .commentaries {
         margin-top: 300px;
     }
+    .pet-owners {
+        padding-left: 1px;
+        max-width: 450px;
+        padding-top: 10px;
 }
 @media (max-width: 568px) {
     .p-main {
@@ -221,6 +275,12 @@
     .icon1 {
         margin-right: 10px;
     }
+    .div-comments {
+        padding-top: 1.5px
+}
+@media (max-width: 520px) {
+    .pet-owners {
+        padding-top: 120px;
 }
 @media (max-width: 450px) {
     .input {
@@ -247,6 +307,12 @@
     }
     .footer-back {
         flex-direction: column;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .button {
+        font-size: 16px;
     }
 }
 
