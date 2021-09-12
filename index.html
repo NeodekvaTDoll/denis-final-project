@@ -19,55 +19,26 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="https://pngimage.net/wp-content/uploads/2018/06/%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99-png-5.png " type="image/gif" sizes="16x16">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 <body>
     <header class="header">
         <div class="image"></div>
-        <!-- <nav>
-            <div class="logo"><h1>Deltaty</h1></div>
-            <div class="openMenu"><i class="fa fa-bars"></i></div>
-            <ul class="mainMenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-                <div class="closeMenu"><i class="fa fa-times"></i></div>
-                <span class="icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-github"></i>
-                </span>
-            </ul>
-        </nav> -->
     <div class="navigation">
         <a class="header-logo" href="#"><img src="images/logo.svg" alt="logo"></a>
         <nav>
-            <ul class="header-ul">
+            <ul class="header-ul" id="navi">
                 <li><a class="a-text" href="#ourservices">Our Services</a></li>
                 <li><a class="a-text" href="#coment">Comments</a></li>
                 <li><a class="a-text" href="#howitwork">How it works</a></li>
                 <li><img class="search" src="images/search.svg" alt="search"></li>
             </ul>
         </nav>
+        <div class="toggle-btn" id="btn">
+            <i class="fas fa-bars"></i>
+        </div>
     </div>
     </header>
-
-
-<!-- <div id="sidebar">
-    <div class="toggle-btn" onclick="openMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <ul>
-        <li>Menu Bar</li>
-        <li><a href="/">Our Services</a></li>
-        <li><a href="/">Our Services</a></li>
-        <li><a href="/">Our Services</a></li>
-    </ul>
-</div> -->
     <section class="main">
         <div class="main-div">
             <div class="left-block">
@@ -96,10 +67,10 @@
                 </form>
             </div>
             <div class="right-block1">
-            <div class="div-block"><img src="images/walking.svg" alt=""><p class="div-text">Dog Walking</p></div>
-            <div class="div-block"><img src="images/cat.svg" alt=""><p class="div-text">Pet Sitting</p></div>
-            <div class="div-block"><img src="images/hause.svg" alt=""><p class="div-text">Overnight Care</p></div>
-            <div class="div-block"><img src="images/paw.svg" alt=""><p class="div-text">Other Services</p></div>    
+            <div class="div-block" id="click1"><img src="images/walking.svg" alt=""><p class="div-text">Dog Walking</p></div>
+            <div class="div-block" id="click2"><img src="images/cat.svg" alt=""><p class="div-text">Pet Sitting</p></div>
+            <div class="div-block" id="click3"><img src="images/hause.svg" alt=""><p class="div-text">Overnight Care</p></div>
+            <div class="div-block" id="click4"><img src="images/paw.svg" alt=""><p class="div-text">Other Services</p></div>    
             </div>
         </div>
         <div class="image2"></div>
@@ -223,9 +194,9 @@
                 </div>
             </div>
         </div>
-        <script src="./script.js"></script>
     </footer>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
 
 

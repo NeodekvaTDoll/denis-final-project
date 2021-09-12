@@ -48,6 +48,12 @@
         flex-wrap: wrap;
         margin-bottom: 60px;
     }
+    .header-ul {
+        display: none;
+    }
+    .toggle-btn {
+        display: block;
+    }
 }
 
 @media (max-width: 1106px) {
@@ -257,6 +263,9 @@
     .div-comments {
         padding-top: 1.5px;
     }
+    .main-div2 {
+        padding-top: 250px;
+    }
     
     
 }
@@ -287,6 +296,9 @@
     }
     .div-comments {
         padding-top: 1.5px
+    }
+    .left-block {
+        padding-top: 150px;
     }
 }
 
@@ -327,5 +339,8 @@
     }
     .button {
         font-size: 16px;
+    }
+    .main-div2 {
+        padding-top: 250px;
     }
 }
