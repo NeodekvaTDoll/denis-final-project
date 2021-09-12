@@ -393,6 +393,9 @@
     .left-block {
         padding-top: 150px;
     }
+    .headernav ul{
+        width: 300px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -445,5 +448,8 @@
     }
     .header-logo {
         padding-left: 10px;
-    }   
+    }
+    .toggle-btn {
+        right: 30px;
+    }
 }
