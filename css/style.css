@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto:wght@100;300&display=swap');
 .navigation {
-    max-width: 1640px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 52px;
+    /* padding-top: 52px; */
+    padding-left: 60px;
+    position: fixed;
+    background-color: #FA5B3F;
+    z-index: 999;
 }
 .header-logo {
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 .header-ul {
     display: flex;
@@ -61,7 +65,7 @@ li {
     width: 100%;
     padding-left: 60px;
     /* height: 328px; */
-    padding-top: 252px;
+    padding-top: 352px;
 }
 .buttons {
     display: flex;
@@ -95,7 +99,7 @@ li {
 .right-block {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 102px;
+    padding-top: 202px;
 }
 .dog1 {
     max-width: 594px;
@@ -562,8 +566,8 @@ h2 {
 .toggle-btn {
     color: #FFE530;
     position: absolute;
-    top: 110px;
-    right: 60px;
+    top: 50px;
+    right: 90px;
     font-size: 42px;
     cursor: pointer;
     display: none;
@@ -571,32 +575,8 @@ h2 {
 .toggle-btn:hover {
     font-size: 48px;
 }
-/* .button-join:hover {
-    overflow: hidden
-    -webkit-backface-visibility: hidden
-    backface-visibility: hidden
-    -moz-osx-font-smoothing: grayscale
-    position: relative
-    -webkit-transition: color 300ms
-    transition: color 300ms
-    -webkit-transform: translateZ(0)
-    transform: translateZ(0)
-    &:before
-      content: ""
-      position: absolute
-      z-index: -1
-      top: 0
-      left: 0
-      right: 0
-      bottom: 0
-      background: #2098d1
-      border-radius: 100%
-      -webkit-transform: scale(0)
-      transform: scale(0)
-      -webkit-transition-property: transform
-      transition-property: transform
-      -webkit-transition: 300ms ease-out
-      transition: 300ms ease-out    
-} */
+.a-text {
+    font-family: "Comfortaa";
+}
 
 
